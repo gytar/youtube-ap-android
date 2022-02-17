@@ -9,7 +9,7 @@ import retrofit2.http.Query;
 
 public interface YoutubePlaylistService {
     String ENDPOINT = "https://www.googleapis.com/youtube/v3/";
-    String API_KEY = "AIzaSyDph78KGssq5ZqaEEIndeRbEpYsnEpzUJk";
+    String API_KEY = "[YOUR_API_KEY]";
 
     @GET("playlistItems")
     Call<YoutubePlaylist> getYoutubePlaylists(
