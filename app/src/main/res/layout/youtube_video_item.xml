@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_shape"
+    android:elevation="5dp">
+
+
+    <ImageView
+        android:id="@+id/thumbnail_iv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="5sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/thumbnail_iv"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:padding="1dp"
+            tools:text="TITLE" />
+
+        <TextView
+            android:id="@+id/tvChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="1dp"
+            tools:text="Channel" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategory"
+        tools:text="Category" />
+</RelativeLayout>

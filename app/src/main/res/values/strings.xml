@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyBest Youtube</string>
+    <string name="menu_add_todo">Add Youtube Video</string>
+    <string name="hint_title_video">Enter Title</string>
+    <string name="hint_title_desc">Enter description</string>
+    <string name="hint_title_url">Enter URL</string>
+    <string name="add_btn">Add</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="show_on_youtube_btn">Show</string>
+    <string name="delete_video_btn">Delete</string>
+    <string name="menu_add_playlist">Add playlist</string>
+    <string name="hint_playlist_video">Enter playlist ID</string>
+    <string name="search_btn">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
